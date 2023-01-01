@@ -6,6 +6,9 @@ dist
 .netlify
 netlify
 
+# Cloudflare Pages functions (https://developers.cloudflare.com/pages/platform/functions)
+functions
+
 # dependencies
 /node_modules
 
