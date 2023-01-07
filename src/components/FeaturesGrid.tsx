@@ -1,11 +1,4 @@
 import {
-    Button,
-    Card,
-    CardActionArea,
-    CardActions,
-    CardContent,
-    CardHeader,
-    CardMedia,
     Grid,
     List,
     ListItem,
@@ -21,9 +14,8 @@ import SevenTVIcon from "~/components/icon/SevenTVIcon";
 import TwitchIcon from "~/components/icon/TwitchIcon";
 import BTTVIcon from "~/components/icon/BTTVIcon";
 import FFZIcon from "~/components/icon/FFZIcon";
-import ChatterinoIcon from "./icon/ChatterinoIcon";
-import { Suspense } from "solid-js";
-import SevenTVNamepaint from "./SevenTVNamepaint";
+import ChatterinoIcon from "~/components/icon/ChatterinoIcon";
+import SevenTVNamepaint from "~/components/SevenTVNamepaint";
 
 
 export default function FeaturesGrid(props) {
