@@ -9,6 +9,7 @@ export default function SevenTVNamepaint(props) {
         <span style={{
             "-webkit-text-fill-color": "transparent",
             "background-clip": "text",
+            "-webkit-background-clip": "text",
             "background-size": "cover",
             "background-color": "currentColor",
             "background-image": props.paintBackground,

@@ -119,6 +119,7 @@ export default function FeaturesGrid(props) {
                             <ListItemText primary={
                                     <span>Chatterino <span style={{
                                         "background-clip": "text",
+                                        "-webkit-background-clip": "text",
                                         "-webkit-text-fill-color": "transparent",
                                         "background-image": "linear-gradient(90deg, rgb(121, 40, 202), rgb(255, 0, 128))",
                                         // "font-weight": "bold",
