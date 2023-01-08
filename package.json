@@ -7,9 +7,9 @@
   },
   "type": "module",
   "devDependencies": {
-    "@suid/vite-plugin": "^0.1.0",
+    "@suid/vite-plugin": "^0.1.2",
     "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.21",
     "solid-start-cloudflare-pages": "^0.2.11",
     "solid-start-node": "^0.2.11",
     "tailwindcss": "^3.2.4",
@@ -20,7 +20,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.6.0",
-    "@suid/icons-material": "^0.5.3",
+    "@suid/icons-material": "^0.5.5",
     "@suid/material": "^0.8.2",
     "solid-js": "^1.6.8",
     "solid-start": "^0.2.11",
