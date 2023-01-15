@@ -137,7 +137,7 @@ export default function FeaturesGrid(props) {
                     <FeatureCard title="Fonts!">
                         <Typography variant="body1">
                             <span>Any font</span> you have on your system can be used!
-                            We have some sweat defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
+                            We have some sweet defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
                         </Typography>
                     </FeatureCard>
 
@@ -155,7 +155,7 @@ export default function FeaturesGrid(props) {
                 <FeatureCard title="Fonts!">
                     <Typography variant="body1">
                         <span>Any font</span> you have on your system can be used!
-                        We have some sweat defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
+                        We have some sweet defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
                     </Typography>
                 </FeatureCard>
             </Grid>
@@ -164,7 +164,7 @@ export default function FeaturesGrid(props) {
                 <FeatureCard title="Fonts!">
                     <Typography variant="body1">
                         <span>Any font</span> you have on your system can be used!
-                        We have some sweat defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
+                        We have some sweet defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
                     </Typography>
                 </FeatureCard>
             </Grid>
@@ -173,7 +173,7 @@ export default function FeaturesGrid(props) {
                 <FeatureCard title="Fonts!">
                     <Typography variant="body1">
                         <span>Any font</span> you have on your system can be used!
-                        We have some sweat defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
+                        We have some sweet defaults though, check out the <span style={{"font-family": "'Alsina'", "font-size": "1.2em"}}>VSauce font</span> for example.
                     </Typography>
                 </FeatureCard>
             </Grid> */}
