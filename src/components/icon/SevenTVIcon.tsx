@@ -3,7 +3,7 @@ import { SvgIcon } from "@suid/material";
 export default function SevenTVIcon(props) {
     return (
         <SvgIcon {...props}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.6 80.9" width="1em" data-v-634e19f1="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.6 80.9">
                 <g>
                     <path d="M84.1,22.2l5-8.7,2.7-4.6L86.8.2V0H60.1l5,8.7,5,8.7,2.8,4.8H84.1" fill="currentColor"></path>
                     <path
