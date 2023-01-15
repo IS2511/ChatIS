@@ -112,7 +112,7 @@ export default function FeaturesGrid(props) {
                             </ListItemIcon>
                             <ListItemText primary="Chatterino" />
                         </ListItem>
-                        <ListItem>
+                        {/* <ListItem>
                             <ListItemIcon>
                                 <ChatterinoIcon htmlColor="white" />
                             </ListItemIcon>
@@ -125,7 +125,7 @@ export default function FeaturesGrid(props) {
                                         // "font-weight": "bold",
                                     }}>Homies</span></span>
                                 } secondary="(optional)" />
-                        </ListItem>
+                        </ListItem> */}
                     </List>
                     </Typography>
                 </FeatureCard>
