@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
-    "@solidjs/router": "^0.6.0",
+    "@solidjs/router": "^0.7.0",
     "@suid/icons-material": "^0.5.5",
     "@suid/material": "^0.8.2",
     "solid-js": "^1.6.8",
