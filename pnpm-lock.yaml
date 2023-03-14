@@ -4,7 +4,7 @@ specifiers:
   '@solidjs/meta': ^0.28.2
   '@solidjs/router': ^0.7.0
   '@suid/icons-material': ^0.5.5
-  '@suid/material': ^0.8.2
+  '@suid/material': ^0.11.0
   '@suid/vite-plugin': 0.1.1
   autoprefixer: ^10.4.13
   postcss: ^8.4.21
@@ -22,7 +22,7 @@ dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.9
   '@solidjs/router': 0.7.0_solid-js@1.6.9
   '@suid/icons-material': 0.5.6_solid-js@1.6.9
-  '@suid/material': 0.8.2_solid-js@1.6.9
+  '@suid/material': 0.11.0_solid-js@1.6.9
   solid-js: 1.6.9
   solid-start: 0.2.16_55umyvmfaswzxpylft3tvr3dvm
   undici: 5.16.0
@@ -1502,20 +1502,6 @@ packages:
     dependencies:
       solid-js: 1.6.9
 
-  /@suid/base/0.5.1_solid-js@1.6.9:
-    resolution: {integrity: sha512-0IbaD/KoJUuT4F6EsKDB1dMX0gAZAGzyUz52RyXRTbEv/e2mgK+00wYRRgxaFcjtfHFutFTkIQ4c0EU+GRECWg==}
-    peerDependencies:
-      solid-js: ^1.6.2
-    dependencies:
-      '@popperjs/core': 2.11.6
-      '@suid/css': 0.1.7_solid-js@1.6.9
-      '@suid/system': 0.7.1_solid-js@1.6.9
-      '@suid/types': 0.3.0_solid-js@1.6.9
-      '@suid/utils': 0.6.0_solid-js@1.6.9
-      clsx: 1.2.1
-      solid-js: 1.6.9
-    dev: false
-
   /@suid/base/0.6.2_solid-js@1.6.9:
     resolution: {integrity: sha512-ZDKWGLdSAVrIuEo0DvrIqWJ6Ngyrt0aB17CX1oY2YscXipgQmpND/0HAplifoNa2bbmLUYBRUSVtBcs/XoSYXA==}
     peerDependencies:
@@ -1530,16 +1516,26 @@ packages:
       solid-js: 1.6.9
     dev: false
 
-  /@suid/css/0.1.7_solid-js@1.6.9:
-    resolution: {integrity: sha512-SBRGHwBndin52tgLAyVlu0cNcDeBJVYA0E4cfo7TO0Jmicmn3xgWXG8Ie7kSDnS8tSf9IZuVnXHaq9deZfdvdA==}
+  /@suid/base/0.7.0_solid-js@1.6.9:
+    resolution: {integrity: sha512-RSxmGVdDK6+ZX0PEx1CDo3cc71c33SUm5WH6owr2h4u214nwmZLBB+GQA5TqrMTBuJGloBM9h6qoVSJ0JhS3Wg==}
+    peerDependencies:
+      solid-js: ^1.6.7
     dependencies:
-      '@suid/utils': 0.6.0_solid-js@1.6.9
-    transitivePeerDependencies:
-      - solid-js
+      '@popperjs/core': 2.11.6
+      '@suid/css': 0.2.2
+      '@suid/system': 0.9.0_solid-js@1.6.9
+      '@suid/types': 0.4.0_solid-js@1.6.9
+      '@suid/utils': 0.6.1_solid-js@1.6.9
+      clsx: 1.2.1
+      solid-js: 1.6.9
     dev: false
 
   /@suid/css/0.2.1:
     resolution: {integrity: sha512-ictV73loNG7BH9ID5PRGnuMryrAHOfyspaCZsQUzz5cTeLttFYgD/QKUcWr4FEG/1O7GVzgJlqtIT1r55LbCtw==}
+    dev: false
+
+  /@suid/css/0.2.2:
+    resolution: {integrity: sha512-6hE9LVBFg/5Zeeu3FlMILE12szS3b3sjERV+FZ2ikKKiyc5IgB9XAu+bqC0y/OuSoVApMY7QOaPtYCoquIq5og==}
     dev: false
 
   /@suid/icons-material/0.5.6_solid-js@1.6.9:
@@ -1551,16 +1547,16 @@ packages:
       solid-js: 1.6.9
     dev: false
 
-  /@suid/material/0.8.2_solid-js@1.6.9:
-    resolution: {integrity: sha512-4gA23zlINdC7Wqe77tD4HeERmaL+I0n9JZdTV0RodU7WTfuxFhTxRroR3aSH+6J3yhwHhsYBla2QNmX4nfTbpg==}
+  /@suid/material/0.11.0_solid-js@1.6.9:
+    resolution: {integrity: sha512-G3FuIXFrDIA4shfGZV6ERVOB/aMwfc6in/ktRLa+Kd2BrkAdKGwc5VleRAdSJ051+YS4UKnnpSfTql4/kq0PMA==}
     peerDependencies:
-      solid-js: ^1.6.2
+      solid-js: ^1.6.7
     dependencies:
-      '@suid/base': 0.5.1_solid-js@1.6.9
-      '@suid/css': 0.1.7_solid-js@1.6.9
-      '@suid/system': 0.7.1_solid-js@1.6.9
-      '@suid/types': 0.3.0_solid-js@1.6.9
-      '@suid/utils': 0.6.0_solid-js@1.6.9
+      '@suid/base': 0.7.0_solid-js@1.6.9
+      '@suid/css': 0.2.2
+      '@suid/system': 0.9.0_solid-js@1.6.9
+      '@suid/types': 0.4.0_solid-js@1.6.9
+      '@suid/utils': 0.6.1_solid-js@1.6.9
       clsx: 1.2.1
       solid-js: 1.6.9
     dev: false
@@ -1579,16 +1575,6 @@ packages:
       solid-js: 1.6.9
     dev: false
 
-  /@suid/styled-engine/0.3.0_solid-js@1.6.9:
-    resolution: {integrity: sha512-TGpmRizJzDoBHcKPR5MUmK5v3Jkfx4mkVGxskEeGXUoMHSIkDWiNstEmYlLFOKqT2Ku2t0lJ8fOS4K777+dUiA==}
-    peerDependencies:
-      solid-js: ^1.6.2
-    dependencies:
-      '@suid/css': 0.1.7_solid-js@1.6.9
-      '@suid/utils': 0.6.0_solid-js@1.6.9
-      solid-js: 1.6.9
-    dev: false
-
   /@suid/styled-engine/0.4.1_solid-js@1.6.9:
     resolution: {integrity: sha512-TzY/2zuspzVnx8q5PG04FgNzkJlESLZwxMYQK4VkIuqTm4CrC8VNMunBBUdv+4DVpQKArtO1ZnTGNNtE34rD8Q==}
     peerDependencies:
@@ -1599,17 +1585,13 @@ packages:
       solid-js: 1.6.9
     dev: false
 
-  /@suid/system/0.7.1_solid-js@1.6.9:
-    resolution: {integrity: sha512-ltWJULVcbLLTmEWdoy33d5Aa4C37V6nk0d0YoqvGJc8ujZ4SDR5hrszWixQG5i/j76+s++ep+9Z9W1xuw/IlTA==}
+  /@suid/styled-engine/0.4.2_solid-js@1.6.9:
+    resolution: {integrity: sha512-XC2mNrrLpxoVqoM5fvtS5oCIW4oWDlo0Qj9lUwZeKwDYYx75WuZPfKrjANLUzWYUqTi6p8u+bckJJiacic4PHA==}
     peerDependencies:
-      solid-js: ^1.6.2
+      solid-js: ^1.6.7
     dependencies:
-      '@suid/css': 0.1.7_solid-js@1.6.9
-      '@suid/styled-engine': 0.3.0_solid-js@1.6.9
-      '@suid/types': 0.3.0_solid-js@1.6.9
-      '@suid/utils': 0.6.0_solid-js@1.6.9
-      clsx: 1.2.1
-      csstype: 3.1.1
+      '@suid/css': 0.2.2
+      '@suid/utils': 0.6.1_solid-js@1.6.9
       solid-js: 1.6.9
     dev: false
 
@@ -1627,11 +1609,17 @@ packages:
       solid-js: 1.6.9
     dev: false
 
-  /@suid/types/0.3.0_solid-js@1.6.9:
-    resolution: {integrity: sha512-MrfSnnI8oyPy+TtSIG6qVZyqVN7GMH49uRbw8ACLEek2T1keG2NtLNgNWhiWv51bP0CwBAalwt+QGcN4b/3OSw==}
+  /@suid/system/0.9.0_solid-js@1.6.9:
+    resolution: {integrity: sha512-HQeSMN67eCkDN2lDeKbEHrPZQI4npBDy5+S3P2Q99eHC7bUpPFkrPaC1BNENr+xWOUvfIMCrUQSbVvIlTGigzQ==}
     peerDependencies:
-      solid-js: ^1.6.2
+      solid-js: ^1.6.7
     dependencies:
+      '@suid/css': 0.2.2
+      '@suid/styled-engine': 0.4.2_solid-js@1.6.9
+      '@suid/types': 0.4.0_solid-js@1.6.9
+      '@suid/utils': 0.6.1_solid-js@1.6.9
+      clsx: 1.2.1
+      csstype: 3.1.1
       solid-js: 1.6.9
     dev: false
 
@@ -1640,15 +1628,6 @@ packages:
     peerDependencies:
       solid-js: ^1.6.7
     dependencies:
-      solid-js: 1.6.9
-    dev: false
-
-  /@suid/utils/0.6.0_solid-js@1.6.9:
-    resolution: {integrity: sha512-1s5mRYbYCFzzo/t1tCvP72IizDNMjAIsV7SsBHqAQRayfQIlAaQv9D2HAQ0QW2WxHIQTsi4JLPZI/0MdiU12Vw==}
-    peerDependencies:
-      solid-js: ^1.6.2
-    dependencies:
-      '@suid/types': 0.3.0_solid-js@1.6.9
       solid-js: 1.6.9
     dev: false
 
