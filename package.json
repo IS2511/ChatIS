@@ -23,7 +23,7 @@
     "@suid/icons-material": "^0.5.5",
     "@suid/material": "^0.8.2",
     "solid-js": "^1.6.8",
-    "solid-start": "^0.2.11",
+    "solid-start": "^0.3.0",
     "undici": "^5.14.0"
   },
   "engines": {
